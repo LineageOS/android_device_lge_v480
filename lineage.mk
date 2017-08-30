@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/v480/full_v480.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_NAME := lineage_v480
 
